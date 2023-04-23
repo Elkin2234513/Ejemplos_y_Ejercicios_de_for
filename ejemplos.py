@@ -48,3 +48,38 @@ for i in frase:
   numero_vocales = numero_vocales + 1
 print(f"En la frase hay {numero_vocales} vocales")
 
+#Ejemplos 8 Ingrese una frase y que diga cuantas veces se repite la a
+frase = input("digite una frase: ")
+vocalA = "a,A"
+vocalE = "e,E"
+vocalI = "i,I"
+vocalO = "o,O"
+vocalU = "u.U"
+
+
+numero_vocalA = 0
+numero_vocalE = 0
+numero_vocalI = 0
+numero_vocalO = 0
+numero_vocalU = 0
+
+for i in frase:
+ if i in vocalA:
+  numero_vocalA = numero_vocalA + 1
+ elif i in vocalE:
+  numero_vocalE = numero_vocalE + 1
+ elif i in vocalI:
+  numero_vocalI = numero_vocalI + 1
+ elif i in vocalO:
+  numero_vocalO = numero_vocalO + 1
+ elif i in vocalU:
+  numero_vocalU = numero_vocalU + 1
+
+
+
+
+print(f"En la frase hay {numero_vocalA} de A")
+print(f"En la frase hay {numero_vocalE} de E")
+print(f"En la frase hay {numero_vocalI} de I")
+print(f"En la frase hay {numero_vocalO} de O")
+print(f"En la frase hay {numero_vocalU} de U")

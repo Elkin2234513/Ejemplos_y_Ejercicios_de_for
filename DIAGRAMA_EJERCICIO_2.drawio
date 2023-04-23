@@ -1,0 +1,78 @@
+<mxfile host="65bd71144e">
+    <diagram id="15qBf8BPOoPZ_RI6u-9z" name="Página-1">
+        <mxGraphModel dx="680" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CC99FF;" parent="1" vertex="1">
+                    <mxGeometry x="365" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Divicible_por_7 = 0&lt;br&gt;Divicible_por_9 = 0" style="whiteSpace=wrap;html=1;fillColor=#FF99CC;" parent="1" vertex="1">
+                    <mxGeometry x="365" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="i in [1000,5000]" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="160" width="115" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="i % 7 = 0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="300" width="115" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Divicible_por_7 += 1" style="whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
+                    <mxGeometry x="562.5" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="i % 9 = 0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
+                    <mxGeometry x="366.25" y="430" width="122.5" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Divicible_por_9 += 1" style="whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="455" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="13">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="660" as="sourcePoint"/>
+                        <mxPoint x="430" y="140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="630" y="570"/>
+                            <mxPoint x="280" y="570"/>
+                            <mxPoint x="280" y="140"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="El numero de divicibles por 7 son&lt;br&gt;El numero de divicibles por 9 son" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#99FF99;" vertex="1" parent="1">
+                    <mxGeometry x="562.5" y="170" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="FIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CC99FF;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="240" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="750" y="180" as="sourcePoint"/>
+                        <mxPoint x="800" y="130" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
